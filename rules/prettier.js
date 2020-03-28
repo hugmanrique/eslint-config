@@ -5,7 +5,9 @@ module.exports = {
     'prettier/prettier': [
       2,
       {
-        singleQuote: true
+        singleQuote: true,
+        trailingComma: 'none',
+        endOfLine: 'lf'
       }
     ]
   }

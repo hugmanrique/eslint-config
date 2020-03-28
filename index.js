@@ -7,7 +7,7 @@ module.exports = {
   ].map(require.resolve),
   parser: 'babel-eslint',
   parserOptions: {
-    ecmaVersion: 9,
+    ecmaVersion: 2020,
     ecmaFeatures: {
       jsx: true,
       impliedStrict: true
@@ -16,6 +16,6 @@ module.exports = {
   env: {
     browser: true,
     node: true,
-    es6: true
+    jest: true
   }
 };

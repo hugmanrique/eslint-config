@@ -12,6 +12,7 @@ module.exports = {
         ignore: ['className', 'children']
       }
     ],
+    'react/prefer-stateless-function': 2,
     // Optional props declared in PropTypes should have a default value
     'react/require-default-props': [
       1,
@@ -27,8 +28,8 @@ module.exports = {
       }
     ],
     // Checks rules of Hooks
-    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/rules-of-hooks': 2,
     // Checks effect dependencies
-    'react-hooks/exhaustive-deps': 'warn'
+    'react-hooks/exhaustive-deps': 1
   }
 };

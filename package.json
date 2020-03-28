@@ -1,13 +1,13 @@
 {
   "name": "@hugmanrique/eslint-config",
   "version": "1.0.0",
-  "license": "MIT",
   "description": "Personal ESLint configuration",
   "author": {
     "name": "Hugo Manrique",
     "url": "https://hugmanrique.me",
     "email": "npm@hugmanrique.me"
   },
+  "license": "MIT",
   "keywords": [
     "eslint",
     "eslint-config",
@@ -24,16 +24,20 @@
   },
   "main": "index.js",
   "dependencies": {
-    "babel-eslint": "^10.0.1",
-    "eslint-config-prettier": "^4.1.0",
+    "babel-eslint": "^10.1.0",
+    "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-babel": "^5.3.0",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-prettier": "^3.0.1",
-    "eslint-plugin-react": "^7.12.4",
-    "eslint-plugin-react-hooks": "^1.5.1"
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "prettier": "^2.0.2"
   },
   "peerDependencies": {
-    "eslint": "^5.15.2",
-    "prettier": "^1.16.4"
+    "eslint": ">= 5",
+    "prettier": ">= 1"
   }
 }
