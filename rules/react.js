@@ -19,9 +19,9 @@ module.exports = {
   rules: {
     'react/display-name': 1,
     'react/prop-types': [
-      2,
+      1,
       {
-        ignore: ['className', 'children']
+        ignore: ['className']
       }
     ],
     'react/prefer-stateless-function': 2,
