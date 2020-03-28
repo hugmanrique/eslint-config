@@ -8,8 +8,13 @@ module.exports = {
     'react-hooks',
     'jsx-a11y'
   ],
-  env: {
-    jest: true
+  settings: {
+    react: {
+      // This should be the default soon:
+      // https://github.com/yannickcr/eslint-plugin-react#configuration
+      version: 'detect'
+    },
+    linkComponents: ['Link']
   },
   rules: {
     'react/display-name': 1,
