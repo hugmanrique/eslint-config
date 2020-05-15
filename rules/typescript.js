@@ -10,13 +10,7 @@ module.exports = {
       parser: '@typescript-eslint/parser',
       plugins: ['@typescript-eslint'],
       rules: {
-        '@typescript-eslint/explicit-function-return-type': [
-          1,
-          {
-            // Prefer TS' type inference
-            allowExpressions: true
-          }
-        ]
+        '@typescript-eslint/explicit-function-return-type': 0 // Prefer TS' type inference
       }
     }
   ]
