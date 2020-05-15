@@ -5,6 +5,7 @@ module.exports = {
     './rules/react',
     './rules/prettier'
   ].map(require.resolve),
+  plugins: [],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2020,
