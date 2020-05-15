@@ -36,9 +36,10 @@ module.exports = {
     'react/jsx-filename-extension': [
       1,
       {
-        extensions: ['.js', '.jsx']
+        extensions: ['.js', '.jsx', '.ts', '.tsx']
       }
     ],
+    'react/no-unescaped-entities': 0,
     // Checks rules of Hooks
     'react-hooks/rules-of-hooks': 2,
     // Checks effect dependencies
