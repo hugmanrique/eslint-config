@@ -5,7 +5,7 @@ module.exports = {
     './rules/react',
     './rules/prettier'
   ].map(require.resolve),
-  parser: 'babel-eslint',
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2020,
     ecmaFeatures: {
