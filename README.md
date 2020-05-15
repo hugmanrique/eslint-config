@@ -5,6 +5,8 @@
 My personal ESLint configuration based on [`eslint:recommended`](https://eslint.org/docs/rules/).
 It includes [Prettier](https://prettier.io/) and is compatible with [React](https://reactjs.org/) and [webpack](https://webpack.js.org/).
 
+Includes a TypeScript override based on the [`@typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint/) parser.
+
 ## Install
 
 ```bash
@@ -22,16 +24,6 @@ Create an `.eslintrc` file in your project's root directory:
 ```
 
 You can further [customize your config](https://eslint.org/docs/user-guide/configuring).
-
-## TypeScript
-
-This repo also contains a TypeScript-compatible preset that uses the [`@typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint/) parser.
-
-```json
-{
-  "extends": ["@hugmanrique/eslint-config/typescript"]
-}
-```
 
 ## License
 

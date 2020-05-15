@@ -3,9 +3,11 @@ module.exports = {
     './rules/bestPractices',
     './rules/imports',
     './rules/react',
-    './rules/prettier'
+    './rules/prettier',
+    './rules/typescript'
   ].map(require.resolve),
   plugins: [],
+  overrides: [],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2020,
