@@ -23,6 +23,16 @@ Create an `.eslintrc` file in your project's root directory:
 
 You can further [customize your config](https://eslint.org/docs/user-guide/configuring).
 
+## TypeScript
+
+This repo also contains a TypeScript-compatible preset that uses the [`@typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint/) parser.
+
+```json
+{
+  "extends": ["@hugmanrique/eslint-config/typescript"]
+}
+```
+
 ## License
 
 [MIT](LICENSE) &copy; [Hugo Manrique](https://hugmanrique.me)

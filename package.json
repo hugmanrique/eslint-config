@@ -12,7 +12,8 @@
     "eslint",
     "eslint-config",
     "react",
-    "prettier"
+    "prettier",
+    "typescript"
   ],
   "homepage": "https://github.com/hugmanrique/eslint-config",
   "repository": {
