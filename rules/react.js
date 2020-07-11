@@ -46,6 +46,7 @@ module.exports = {
     'react-hooks/exhaustive-deps': 1,
     // Accessibility rules
     'jsx-a11y/accessible-emoji': 0,
-    'jsx-a11y/anchor-is-valid': 1
+    'jsx-a11y/anchor-is-valid': 1,
+    'jsx-a11y/no-autofocus': 0
   }
 };
